@@ -5,11 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery list</title>
 </head>
 
 <body>
+    <div class="container">
+        <h1>Add Item</h1>
+        <form id="add-form">
+            <div>
+                <label for="item">Item</label>
+                <input type="text" id="item" class="u-full-width">
+            </div>
+            <div>
+                <label for="cost">Cost per item</label>
+                <input type="text" id="cost" class="u-full-width">
+            </div>
+            <div>
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="u-full-width">
+            </div>
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Item</th>
+                    <th>Cost per item</th>
+                    <th>Quantity</th>
+                    <th>Item total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="item-list">
 
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>List Total: </th>
+                    <th id="total"></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 
 </html>
