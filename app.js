@@ -1,7 +1,7 @@
 // To do:
 // - add an item
 // - form validation
-// - clear form after adding
+// - clear form after adding an item
 // - show total
 // - delete an item
 // - show alerts
